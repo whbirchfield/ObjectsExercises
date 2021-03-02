@@ -1,46 +1,50 @@
-let astronautID;
 
 let superChimpOne = {
     name: "Chad",
     species: "Chimpanzee",
     mass: 9,
-    age: 6
-   // astronautID: = Math.floor(Math.random()*10),
+    age: 6,
+    astronautID: 1
 };
 
 let salamander = {
     name: "Lacey",
     species: "Axolotl Salamander",
     mass: 0.1,
-    age: 5
+    age: 5,
+    astronautID: 2
 };
 
 let superChimpTwo = {
     name: "Brad",
     species: "Chimpanzee",
     mass: 11,
-    age: 6
+    age: 6,
+    astronautID: 3
 };
 
 let superCanine = {
     name: "Leroy",
     species: "Beagle",
     mass: 14,
-    age: 5
+    age: 5,
+    astronautID: 4
 };
 
 let superInsect = {
     name: "Almina",
     species: "Tardigrade",
     mass: 0.1,
-    age: 5
+    age: 5,
+    astronautID: 5
 };
 
-superInsect[astronautID] = Math.floor(Math.random()*10);
+/*superInsect[astronautID] = Math.floor(Math.random()*10);
 superChimpOne[astronautID] = Math.floor(Math.random()*10);
 superChimpTwo[astronautID] = Math.floor(Math.random()*10);
 superCanine[astronautID] = Math.floor(Math.random()*10);
 salamander[astronautID] = Math.floor(Math.random()*10);
+*/
 
 
 for (item in superChimpOne){
