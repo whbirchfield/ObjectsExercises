@@ -4,7 +4,8 @@ let superChimpOne = {
     species: "Chimpanzee",
     mass: 9,
     age: 6,
-    astronautID: 1
+    astronautID: 1,
+    move: function() {return Math.floor(Math.random()*11)}
 };
 
 let salamander = {
@@ -12,7 +13,8 @@ let salamander = {
     species: "Axolotl Salamander",
     mass: 0.1,
     age: 5,
-    astronautID: 2
+    astronautID: 2,
+    move: function() {return Math.floor(Math.random()*11)}
 };
 
 let superChimpTwo = {
@@ -20,7 +22,8 @@ let superChimpTwo = {
     species: "Chimpanzee",
     mass: 11,
     age: 6,
-    astronautID: 3
+    astronautID: 3,
+    move: function() {return Math.floor(Math.random()*11)}
 };
 
 let superCanine = {
@@ -28,7 +31,8 @@ let superCanine = {
     species: "Beagle",
     mass: 14,
     age: 5,
-    astronautID: 4
+    astronautID: 4,
+    move: function() {return Math.floor(Math.random()*11)}
 };
 
 let superInsect = {
@@ -36,7 +40,8 @@ let superInsect = {
     species: "Tardigrade",
     mass: 0.1,
     age: 5,
-    astronautID: 5
+    astronautID: 5,
+    move: function() {return Math.floor(Math.random()*11)}
 };
 
 /*superInsect[astronautID] = Math.floor(Math.random()*10);
@@ -71,7 +76,7 @@ for (item in superCanine){
   console.log(item + ", " + superCanine[item]);
 }
 // After you have created the other object literals, add the astronautID property to each one.
-
+let crew = ['superChimpOne', 'salamander' , 'superChimpTwo', 'superCanine', 'superInsect'];
 // Create an array to hold the animal objects.
 
 // Print out the relevant information about each animal.
